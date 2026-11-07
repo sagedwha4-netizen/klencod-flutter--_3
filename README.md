@@ -1,2 +1,39 @@
-# klencod-flutter--_3
-Project created by KLENCOD IDE
+# مسبحتي | Tasbih App
+
+تطبيق مسبحة إلكترونية باستخدام Flutter وDart.
+
+## المزايا
+- عداد تسبيح بالضغط.
+- تراجع عن آخر ضغطة.
+- تصفير العداد مع تأكيد.
+- أهداف 33 و99 و100.
+- مؤشر تقدم دائري.
+- اهتزاز خفيف عند التسبيح حسب دعم الجهاز.
+- الوضع الليلي والنهاري.
+- حفظ العدد والهدف والوضع تلقائياً على الجهاز.
+- واجهة عربية RTL وألوان تركواز حديثة.
+- يعمل محلياً بعد تثبيت المكتبات ولا يحتاج إلى حساب أو اتصال إنترنت أثناء الاستخدام.
+
+## التشغيل
+افتح المجلد في KlenCode IDE أو VS Code، ثم نفّذ:
+```bash
+flutter pub get
+flutter run
+```
+
+إذا لم تكن ملفات Android موجودة، نفّذ مرة واحدة:
+```bash
+flutter create .
+```
+
+## بناء APK
+```bash
+flutter build apk --release
+```
+المسار:
+`build/app/outputs/flutter-apk/app-release.apk`
+
+## اسم الحزمة المقترح
+`com.sajid.tasbih`
+
+ملاحظة: يتطلب المشروع Flutter/Dart 3.3 أو أحدث ومكتبة shared_preferences.
